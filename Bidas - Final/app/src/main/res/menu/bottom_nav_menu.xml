@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_beforeDays"
+        android:icon="@drawable/atras"
+        android:title="Anterior" />
+
+    <item
+        android:id="@+id/navigation_today"
+        android:icon="@drawable/home"
+        android:title="Hoy" />
+
+    <item
+        android:id="@+id/navigation_moreInfo"
+        android:icon="@drawable/mas"
+        android:title="Mas opciones" />
+
+</menu>

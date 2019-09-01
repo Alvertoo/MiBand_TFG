@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionTipsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="33dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="371dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Según la Sociedad Española De Nutrición Comunitaria se aconseja:"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/piramideAlimenticia"
+                android:layout_width="wrap_content"
+                android:layout_height="363dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/piramide_alimenticia" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="347dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Si sufre de alguna affección, existen distintas dietas para casos más concretos:"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/dietaColesterol"
+                android:layout_width="341dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/borde_redondo"
+                android:text="Dieta para el colesteron baja en grasas"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/dietaHipertension"
+                android:layout_width="341dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/borde_redondo"
+                android:text="Dieta para la hipertension baja en sal"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/dietaDiabetes"
+                android:layout_width="341dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/borde_redondo"
+                android:text="Dieta para la diabetes baja en azucar"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="347dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="*Si tiene alguna duda, consulte a su médico"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

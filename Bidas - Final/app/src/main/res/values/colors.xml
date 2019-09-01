@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#10AC2D</color>
+    <color name="colorSecondary">#59db46</color>
+    <color name="colorAccent">#10AC2D</color>
+    <color name="splashScreen">#ffffff</color>
+    <color name="mon">#d77fb3</color>
+    <color name="tue">#cd7058</color>
+    <color name="wed">#79c36a</color>
+    <color name="thu">#9e66ab</color>
+    <color name="fri">#f9a65a</color>
+    <color name="sat">#599ad3</color>
+    <color name="sun">#f1595f</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>
